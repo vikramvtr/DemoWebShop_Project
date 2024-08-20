@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Books page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Test Script has passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-20T20:11:50 IST" name="Default suite" finished-at="2024-08-20T20:12:00 IST" duration-ms="10434">
+    <groups>
+    </groups>
+    <test started-at="2024-08-20T20:11:50 IST" name="Default test" finished-at="2024-08-20T20:12:00 IST" duration-ms="10434">
+      <class name="books.TC_DWS_005_Test">
+        <test-method is-config="true" signature="reportConfig()[pri:0, instance:books.TC_DWS_005_Test@367ffa75]" started-at="2024-08-20T20:11:49 IST" name="reportConfig" finished-at="2024-08-20T20:11:50 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfig -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:books.TC_DWS_005_Test@367ffa75]" started-at="2024-08-20T20:11:50 IST" name="LaunchBrowser" finished-at="2024-08-20T20:11:55 IST" duration-ms="5607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="LoginPages()[pri:0, instance:books.TC_DWS_005_Test@367ffa75]" started-at="2024-08-20T20:11:55 IST" name="LoginPages" finished-at="2024-08-20T20:11:58 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPages -->
+        <test-method signature="clickOnButton()[pri:0, instance:books.TC_DWS_005_Test@367ffa75]" started-at="2024-08-20T20:11:58 IST" name="clickOnButton" finished-at="2024-08-20T20:12:00 IST" duration-ms="2088" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Books page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Test Script has passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnButton -->
+        <test-method is-config="true" signature="LogoutPage()[pri:0, instance:books.TC_DWS_005_Test@367ffa75]" started-at="2024-08-20T20:12:00 IST" name="LogoutPage" finished-at="2024-08-20T20:12:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutPage -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:books.TC_DWS_005_Test@367ffa75]" started-at="2024-08-20T20:12:00 IST" name="ClosePage" finished-at="2024-08-20T20:12:00 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:books.TC_DWS_005_Test@367ffa75]" started-at="2024-08-20T20:12:00 IST" name="reportBackup" finished-at="2024-08-20T20:12:01 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- books.TC_DWS_005_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
